@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textGradient {
+  background: rgb(230, 34, 226);
+  background: linear-gradient(
+    149deg,
+    rgba(230, 34, 226, 1) 0%,
+    rgba(123, 9, 210, 1) 37%,
+    rgba(255, 247, 73, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.textGradient2 {
+  background: rgb(254, 34, 34);
+  background: linear-gradient(
+    149deg,
+    rgba(254, 34, 34, 1) 0%,
+    rgba(230, 34, 226, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+.footerText {
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 700;
+  color: rgb(166, 168, 170);
+}
+.wrapper {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
